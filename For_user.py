@@ -5,9 +5,9 @@ api_hash = 'a02e867cc4e2e27b289437956c9e2049'
 
 app = Client("session_name", api_id=api_id, api_hash=api_hash)
 
-group_id_1 = -1002074898880#-1002116274028
-group_for_parsing_id = -4140592000#-1002100150828
-group_for_parsing_id_2 = -4199732341#-1002105785999
+group_id_1 = -1002116274028
+group_for_parsing_id = -1002100150828
+group_for_parsing_id_2 = -1002105785999
 
 async def get_last_message_id(client, chat_id):
     async for message in client.get_chat_history(chat_id, limit=1):
